@@ -8,10 +8,10 @@ const server = express();
 
 // Configuração do CORS
 const corsOptions = {
-  origin: 'http://localhost:5173', // Substitua pelo seu domínio de frontend
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true,
-  optionsSuccessStatus: 204,
+    origin: 'http://localhost:5173', // Substitua pelo seu domínio de frontend
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+    optionsSuccessStatus: 204,
 };
 
 // Aplicação do middleware do cors
